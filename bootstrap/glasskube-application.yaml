@@ -12,6 +12,8 @@ spec:
     repoURL: https://github.com/christophenne/glasskube-argocd-starter-test2
     targetRevision: HEAD
   syncPolicy:
+    syncOptions:
+    - ApplyOutOfSyncOnly=true
     automated:
       prune: true
       selfHeal: true
