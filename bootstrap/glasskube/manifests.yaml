@@ -9,6 +9,7 @@ kind: Namespace
 metadata:
   annotations:
     packages.glasskube.dev/telemetry-enabled: "true"
+    packages.glasskube.dev/random-annotation: "true"
   labels:
     app.kubernetes.io/component: manager
     app.kubernetes.io/created-by: glasskube
