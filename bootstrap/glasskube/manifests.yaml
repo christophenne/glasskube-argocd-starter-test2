@@ -10046,6 +10046,7 @@ metadata:
   name: glasskube-webhook-cert-init
   namespace: glasskube-system
 spec:
+  ttlSecondsAfterFinished: 0
   template:
     spec:
       containers:
